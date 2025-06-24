@@ -45,3 +45,59 @@ console.log(obj4);
 // another way of combining.
 const obj5 = {...obj1, ...obj2} // using spread operator.
 console.log(obj5);
+
+const users = [
+    {
+        id: 1,
+        email: "dax@google.com"
+    },
+    {
+        id: 1,
+        email: "dax@google.com"
+    }
+] // object inside array
+
+users[1].email
+console.log(twitterUser);
+
+console.log(Object.keys(twitterUser)); // accessing the keys from the above object
+console.log(Object.values(twitterUser)); // accessing the values from the above object
+console.log(Object.entries(twitterUser)); // every key-value has created as an array 
+
+console.log(twitterUser.hasOwnProperty('isLoggedIn'));
+// checks if the value exist or not in certain object.
+
+// ******************* Object de-structure and JSON API intro *********************
+
+// The first thing to discuss is of de-structuring it can be of object or array
+
+// Now lets see the de-structuring of object.
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "dax"
+}
+
+// course.courseInstructor (just an syntax for accessing courseInstructor.)
+
+const {courseInstructor} = course
+console.log(courseInstructor); // here we can direct access it using courseInstructor.
+
+const {coursename: nameofsub} = course
+console.log(nameofsub); // we can also give alternate name as per our need
+
+// the given below nameless object is nothing but JSON
+// {
+//     "name": "dax",
+//     "coursename": "js in github",
+//     "price": "free"
+// }
+// all the key and value are in string in JSON
+
+[
+    {},
+    {},
+    {}
+]
+// object inside array
