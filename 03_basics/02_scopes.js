@@ -30,3 +30,14 @@ function one(){
 one()
 //  the child function can access parent variable
 
+console.log(addone(5))
+function addone(num){
+    return num + 1 
+}
+// Here before declaring function you can use it.
+
+const addTwo = function (num){
+    return num + 2
+}
+console.log(addTwo(5))
+// Here before declaring function you cant use it.
