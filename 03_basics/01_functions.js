@@ -69,4 +69,4 @@ function returnSecondValue(getArray){
     return getArray[0]
 }
 console.log(returnSecondValue(myNewArray));
-// Same as object, We have seen array also
+// Same as object, We have seen array also.
