@@ -15,7 +15,7 @@
 ( () => {
     // unamed IIFE
     console.log(`Database Connected Two`); 
-}) () // using arrow function
+}) (); // using arrow function
 
 ( (name) => {
     console.log(`Database Connected Two ${name}`); 
