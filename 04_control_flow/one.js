@@ -47,3 +47,8 @@ console.log(result2)
  so now fun3 will come out first the other ones in the reverse order.
  that how stack works.
 */
+
+// Control Flow
+// the first topic is "if"
+
+
